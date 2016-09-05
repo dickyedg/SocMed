@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+	
+		
+		<meta charset ="utf-8">
+		<meta name="keywords" content = "blog,dicky,catatan mahasiswa,terapes sedunia">
+		<meta name ="description" content = "catatan hidup sehari-hari, belajar programming, motivasi motivasi Mario Teguh, tentang fasilkom">
+		<script src="../scripts/jquery-2.1.4.min.js"></script>
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+		<!-- Latest compiled JavaScript -->
+		<script src="../bootstrap/js/bootstrap.min.js"></script>
+		<script src="../scripts/myscript.js"></script>
+		<!--link rel="shortcut icon" href="../Image_Source/icon.png"-->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>edgardo.com</title>
+		
+	</head>
+	
+	<body>
+		 
+		 <nav class="navbar navbar-inverse">
+			<div class="container-fluid">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="#">Simple Social Media</a>
+		</div>
+    <div>
+      <ul class="nav navbar-nav">
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" id="sembunyi">Sign In <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><label>Username: <input id="username" type="text" size="25"></label>
+			<label>Password: <input id="password" type="password" size="25"></label>
+			<button id="submit" onclick="submit()">Submit</button></li>
+           </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid">
+<h1 id="continue"> Sign in to continue</h1>
+	<div id="content" style="display:none;">
+	<div id="forpost">
+	<p><label>What's Happening?<br><textarea id="postingan" maxlength="150" rows="4" cols="100" placeholder="Maksimal 150 karakter..."></textarea></label></p>
+	<button onclick="PostThis()">Post This!</button>
+	</div>
+	<div id="posts">
+	</div>
+</div>
+	
+
+	</body>
+</html>
